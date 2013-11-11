@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Co-Routine FRP demo</title>
+  <script src="util.js"></script>
+  <script src="routine.js"></script>
+  <script src="channel.js"></script>
+  <script src="eventbus.js"></script>
+  <script src="signal.js"></script>
+  <style type="text/css">
+    html, body {
+      height: 100%;
+      width: 100%;
+    }
+    #box1 {
+      background-color: blue;
+    }
+    #box2 {
+      background-color: red;
+      height: 20px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Co-Routine FRP demo</h1>
+  <div id="content"></div>
+  <div id="box1">This box follows mouse position</div>
+  <div id="box2">This box follows mouse clicks</div>
+  <script src="window.js"></script>
+  <script src="sample.js"></script>
+</body>
+</html>
